@@ -32,6 +32,11 @@ export class NavMenu extends Component {
               <NavItem>
                 <Glyphicon glyph='th-list' /> Fetch data
               </NavItem>
+                    </LinkContainer>
+            <LinkContainer to={'/TodoHomePage'}>
+                        <NavItem>
+                            <Glyphicon glyph='education' /> To do Home
+              </NavItem>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
