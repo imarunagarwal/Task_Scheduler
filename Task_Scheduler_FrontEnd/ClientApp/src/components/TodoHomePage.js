@@ -6,8 +6,7 @@ export class TodoHomePage extends Component {
     constructor(props) {
         super(props);
     }
-
-
+    
     //$("#sortable").sortable();
     //$("#sortable").disableSelection();
 

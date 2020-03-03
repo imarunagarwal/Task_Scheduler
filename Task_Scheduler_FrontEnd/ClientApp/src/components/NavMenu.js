@@ -37,7 +37,8 @@ export class NavMenu extends Component {
                         <NavItem>
                             <Glyphicon glyph='education' /> To do Home
               </NavItem>
-            </LinkContainer>
+                    </LinkContainer>
+                     
           </Nav>
         </Navbar.Collapse>
       </Navbar>
