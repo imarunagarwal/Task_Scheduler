@@ -93,7 +93,7 @@ export class TodoHomePage extends Component {
                             <div className="todolist not-done">
                                 <h1>Todos</h1>
                                 <input type="text" className="form-control add-todo" placeholder="Add todo" onChange={e => { this.AddToDo(e) }}></input>
-                                <button className="btn btn-success" onClick={e => { this.AllDone() }}>Mark all as done</button>
+                                <button className="btn btn-success" style={{ marginTop: '3%' }} onClick={e => { this.AllDone() }}>Mark all as done</button>
                                     
                                         <ul id="sortable" className="list-unstyled">
                                             <li className="ui-state-default">

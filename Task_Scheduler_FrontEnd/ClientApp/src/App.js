@@ -6,6 +6,7 @@ import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import { TodoHomePage } from './components/TodoHomePage';
 import { UserSignUp } from './components/User/UserSignUp';
+import { UserSignIn } from './components/User/UserSignIn';
 export default class App extends Component {
   displayName = App.name
 
@@ -16,7 +17,8 @@ export default class App extends Component {
         <Route path='/counter' component={Counter} />
             <Route path='/fetchdata' component={FetchData} />
             <Route path='/TodoHomePage' component={TodoHomePage} />
-            <Route path='/UserSignUp' component={UserSignUp}/>
+            <Route path='/UserSignUp' component={UserSignUp} />
+            <Route path='/UserSignIn' component={UserSignIn}/>
       </Layout>
     );
   }
