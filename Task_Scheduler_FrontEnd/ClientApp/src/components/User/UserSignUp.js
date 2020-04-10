@@ -4,7 +4,7 @@ import '../../NewFolder/SignUpForm.css';
 export class UserSignUp extends Component {
     constructor(props) {
         super(props);
-        this.state = { firstName: '', lastName='', emailAddress='', password=''};
+        this.state = { firstName: "", lastName:"", emailAddress:"", password:""};
     }
 
     handle = () => {
